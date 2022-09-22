@@ -25,6 +25,7 @@ public class Main {
                 System.out.println("Number " + i + " is odd");
             }
         }
+
         String ternary = a > 10 ? "Number is greater than 10"
                 : (a > 5 ? "Number is greater than 5" : "Number is less than equal to 5");
         System.out.println(ternary);
